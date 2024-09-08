@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+.magnify {
+  transform: scale(1); /* Scale the table by 1.5 */
+   /* Keep the scaling centered */
+}

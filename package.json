@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.4.6",
+    "framer-motion": "^11.5.4",
+    "mongodb": "^6.8.1",
+    "nanoid": "^5.0.7",
+    "next": "14.2.8",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.8"
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "postcss": "^8",
