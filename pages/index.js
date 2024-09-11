@@ -21,8 +21,13 @@ export default function Home() {
   return (
     <div>
       {session ? (
-        
+        <>
         <Homepage />
+        <div className="flex justify-center mt-4">
+        <Loginbtn />
+        </div>
+        
+        </>
       ) : (
         <div  className="maindiv flex items-center justify-center h-screen">
           
