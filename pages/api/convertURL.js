@@ -13,6 +13,10 @@ import { database } from "@/lib/mongodb";
         const doc = await urls.findOne(query);
         console.log(doc)
 
+        await urls.updateOne(query,{
+          $push: { visitHistory: 1 } 
+        })
+        
         return res.status(200).json(doc);
     
       } else {
